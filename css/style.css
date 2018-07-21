@@ -1,0 +1,51 @@
+#countdown {
+    color: #0073c5;
+    margin-top: 1.5em;
+  }
+  #countdown td {
+    text-align: center;
+    padding: 10px 5px;
+  }
+  #countdown .tr-text {
+    font-size: 14px;
+  }
+  #countdown .tr-text td {
+    padding: 0;
+  }
+  #countdown table {
+    table-layout: fixed;
+    margin-bottom: 0;
+  }
+  #countdown table tr {
+    border: none;
+  }
+  #countdown .fix-width {
+    position: relative;
+    font-weight: 500;
+    font-size: 2em;
+  }
+  #countdown .circle {
+    width: 76%;
+    height: 0;
+    padding-bottom: 71%;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  #countdown .numbers {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 85%;
+  }
+  #countdown svg {
+    width: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #countdown svg.filter-shadow {
+    filter: drop-shadow(0px 0px 1.5px rgba(0, 115, 197, 0.9));
+  }
+  
